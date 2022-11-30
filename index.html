@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+    Shipping Form!
+</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="Imagse/shippingFormhaha.webp">
+
+    <script src="functions.js"></script>
+    
+
+</head>
+<body>
+    
+    <div id=form>
+   
+    <h1>
+        Crush Compatability Test
+    </h1>
+
+    <div id ="hearts">
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+        <div id="heart"></div>
+    </div>
+
+    </div>
+
+    <div id=form>
+
+    <form action="">
+
+        <label for="">What is your Name?</label>
+        <input type="text" id="something" oninput="unfocus()" placeholder="haha get it">
+        <br>
+
+        <label for="">Your Birthday:</label>
+        <input type="date" >
+        <br>
+        
+        <label for="">Time Right Now:</label>
+        <input type="datetime-local" >
+        <br>
+
+        <p>What is your favorite school subject?</p>
+        <input type="radio" name = "subject">
+        <label for="">Math</label>
+        <input type="radio"  name = "subject">
+        <label for="">English</label>
+        <input type="radio"  name = "subject">
+        <label for="">Science</label>
+        <input type="radio"  name = "subject">
+        <label for="">Social Studies</label>
+        <input type="radio"  name = "subject">
+        <label for=""><input type="text" placeholder="Other"></label>
+        
+        <br>
+
+        <p>What is your favorite genre?</p>
+        <input type="radio" name = "subject">
+        <label for="">Fantasy/SciFi</label>
+        <input type="radio"  name = "subject">
+        <label for="">Nonfiction</label>
+        <input type="radio"  name = "subject">
+        <label for="">Comedy</label>
+        <input type="radio"  name = "subject">
+        <label for="">Historical Fiction</label>
+        <input type="radio"  name = "subject">
+        <label for=""><input type="text" placeholder="Other"></label>
+        
+        <br>
+
+        <label for="">don't click these</label>
+        <input type="checkbox" onClick="javascript:window.close('','_parent','');">
+        <input type="checkbox" onClick="javascript:window.close('','_parent','');">
+        <input type="checkbox" onClick="javascript:window.close('','_parent','');">
+        <input type="checkbox" onClick="javascript:window.close('','_parent','');">
+    
+        <br>
+        
+        <label for="">Pick Your Favorite Color:</label>
+        <input type="color" id="color" onblur="changeColor()">
+        <br>
+        
+       
+        
+        <label for="">Your PERSONELLE email address:</label>
+        <input type="email" placeholder="NotLukesFather@cloud.net">
+
+        <br>
+
+        <label for="">Photo of You: </label>
+        <input type="file" placeholder="( ͡° ͜ʖ ͡°)">
+        
+      
+        <br>
+        
+
+        <label for="">What do you think our compatability is?</label>
+        <input type="range"  value="5" min="0" max="10"id="level" oninput="amount.value=level.value">
+        <output id="amount" name="amount for="level">5</output>
+        
+        
+        <br>
+        
+      
+        <label for="">Your Phone Number (XXX-XXX-XXXX):</label>
+        <input type="tel" placeholder="531-800-0008"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        
+       
+        
+        <br>
+
+        <label for="">Your Insta (i don't understand how social media works man):</label>
+        <input type="url" placeholder="¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯">
+
+        <br>
+       
+        <label for="">Submit</label>
+        <input type="submit">
+
+        <label for="" id="resetButton">Reset?</label>
+        <input type="reset" id="reset" onclick="resetTest()">
+    
+    </form>
+
+    </div>
+
+</body>
+
+
+
+</html>

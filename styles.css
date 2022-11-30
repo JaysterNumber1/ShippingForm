@@ -1,0 +1,55 @@
+body{
+  
+   
+    background-color: rgb(255, 167, 182);
+}
+
+h1{
+  text-align: center;
+  font-size: 7vmax;
+}
+
+input{
+  margin-top: 1vmin;
+  margin-bottom: 1vmin;
+}
+
+#resetButton{
+  margin-left: 5vmax;
+}
+
+#form{
+    background-color: white;
+    padding: 2vmax;
+    margin: 3vmax;
+}
+
+#heart {
+    
+    position: relative;
+    width: 10vmax;
+    height: 9vmax;
+  }
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 5vmax;
+    top: 0;
+    width: 5vmax;
+    height: 8vmax;
+    background: red;
+    border-radius: 5vmax 5vmax 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+      
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  #hearts{
+      display: flex;
+  }
+  
